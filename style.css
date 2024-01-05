@@ -1,0 +1,110 @@
+.page {
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    margin:  12px 0 12px 120px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.navigation {
+    margin:  12px 120px 12px 0;
+    display: inline-flex;
+    gap: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: solid;
+}
+
+.user-picture__image {
+    width: 524px;
+    height: 524px;
+    border-radius: 50%;
+}
+
+.main {
+    margin: 38px 120px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+.text {
+    display: flex;
+    width: 588px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.text__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 0;
+}
+.text__description {
+    margin: 0;
+    font-size: 24px;
+    line-height: 150%;
+    color: #828282;
+}
+.resume {
+    margin: 0;
+    padding: 8px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #FDC435;
+    border-radius: 8px;
+    border: none;
+}
+
+.footer {
+    margin-top: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #828282;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.icon_telegram {
+    background-image: url('./images/telegram-logo.png');
+}
+.icon_instagram {
+    background-image: url('./images/instagram-logo.jpg');
+}
+.icon_mail {
+    background-image: url('./images/mail-logo.jpg');
+}
